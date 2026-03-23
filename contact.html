@@ -7,8 +7,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Copy header from index.html -->
-    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <div class="logo-icon">🎓</div>
+                    <div class="logo-text">
+                        <div class="logo-title">MAA DIGITAL</div>
+                        <div class="logo-subtitle">Computer Education</div>
+                    </div>
+                </div>
+                <nav class="nav" id="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="courses.html" class="nav-link">Courses</a>
+                    <a href="admission.html" class="nav-link">Admission</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                    <a href="admission.html" class="btn btn-primary">Enroll Now</a>
+                </nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
     <section class="page-header">
         <div class="container">
             <h1 class="page-title">Contact Us</h1>
@@ -18,35 +45,93 @@
 
     <section class="section">
         <div class="container">
-            <div style="max-width: 600px; margin: 0 auto;">
-                <form id="contactForm">
-                    <div class="form-group">
-                        <label class="form-label">Name *</label>
-                        <input type="text" id="name" class="form-input" required>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <h3 class="info-title">Address</h3>
+                        <p class="info-text">123, Education Street, Knowledge City, India 123456</p>
                     </div>
-                    <div class="form-group">
-                        <label class="form-label">Email *</label>
-                        <input type="email" id="email" class="form-input" required>
+                    <div class="info-card">
+                        <div class="info-icon">📞</div>
+                        <h3 class="info-title">Phone</h3>
+                        <p class="info-text">+91 98765 43210</p>
                     </div>
-                    <div class="form-group">
-                        <label class="form-label">Phone *</label>
-                        <input type="tel" id="phone" class="form-input" required>
+                    <div class="info-card">
+                        <div class="info-icon">📧</div>
+                        <h3 class="info-title">Email</h3>
+                        <p class="info-text">info@maadigital.com</p>
                     </div>
-                    <div class="form-group">
-                        <label class="form-label">Subject *</label>
-                        <input type="text" id="subject" class="form-input" required>
-                    </div>
-                    <div class="form-group">
-                        <label class="form-label">Message *</label>
-                        <textarea id="message" class="form-textarea" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Send Message</button>
-                </form>
+                </div>
+                <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    <h3 class="section-title" style="text-align: center; margin-bottom: 30px;">Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label class="form-label">Name *</label>
+                            <input type="text" id="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email *</label>
+                            <input type="email" id="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Phone *</label>
+                            <input type="tel" id="phone" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Subject *</label>
+                            <input type="text" id="subject" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Message *</label>
+                            <textarea id="message" class="form-textarea" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Copy footer from index.html -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon">🎓</div>
+                        <div class="logo-text">
+                            <div class="logo-title">MAA DIGITAL</div>
+                            <div class="logo-subtitle">Computer Education</div>
+                        </div>
+                    </div>
+                    <p class="footer-text">Empowering students with quality computer education.</p>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="admission.html">Admission</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Contact</h3>
+                    <ul class="footer-contact">
+                        <li>📍 123, Education Street, India</li>
+                        <li>📞 +91 98765 43210</li>
+                        <li>📧 info@maadigital.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MAA DIGITAL. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
