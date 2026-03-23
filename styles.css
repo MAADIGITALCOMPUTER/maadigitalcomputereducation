@@ -289,6 +289,11 @@ html {
     color: #6b7280;
 }
 
+.rating-content {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Stats Section */
 .stats {
     padding: 50px 0;
