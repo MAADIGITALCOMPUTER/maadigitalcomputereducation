@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission - MAA DIGITAL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <div class="logo-icon">🎓</div>
+                    <div class="logo-text">
+                        <div class="logo-title">MAA DIGITAL</div>
+                        <div class="logo-subtitle">Computer Education</div>
+                    </div>
+                </div>
+                <nav class="nav" id="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="courses.html" class="nav-link">Courses</a>
+                    <a href="admission.html" class="nav-link active">Admission</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Apply For Admission</h1>
+            <p class="page-subtitle">Join us and transform your career</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div style="max-width: 600px; margin: 0 auto;">
+                <h2 class="section-title" style="text-align: center; margin-bottom: 40px;">Admission Form</h2>
+                <form id="admissionForm">
+                    <div class="form-group">
+                        <label class="form-label">Full Name *</label>
+                        <input type="text" id="fullName" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Email *</label>
+                        <input type="email" id="email" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Phone *</label>
+                        <input type="tel" id="phone" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Select Course *</label>
+                        <select id="course" class="form-input" required>
+                            <option value="">Select a course...</option>
+                            <option>Basic Computer Course</option>
+                            <option>MS Office Course</option>
+                            <option>Tally with GST</option>
+                            <option>DTP Course</option>
+                            <option>C & C++ Programming</option>
+                            <option>Python Programming</option>
+                            <option>Java Programming</option>
+                            <option>Web Development</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Qualification *</label>
+                        <input type="text" id="qualification" class="form-input" placeholder="e.g., 12th Pass" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Address</label>
+                        <textarea id="address" class="form-textarea" placeholder="Enter your address"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Message</label>
+                        <textarea id="message" class="form-textarea" placeholder="Any additional information"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; margin-top: 10px;">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon">🎓</div>
+                        <div class="logo-text">
+                            <div class="logo-title">MAA DIGITAL</div>
+                            <div class="logo-subtitle">Computer Education</div>
+                        </div>
+                    </div>
+                    <p class="footer-text">Quality computer education for better future.</p>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="admission.html">Admission</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Contact</h3>
+                    <ul class="footer-contact">
+                        <li>📍 123, Education Street, India</li>
+                        <li>📞 +91 98765 43210</li>
+                        <li>📧 info@maadigital.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MAA DIGITAL. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
